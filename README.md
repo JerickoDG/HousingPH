@@ -1,4 +1,5 @@
 # HousingPH
+
 Prediction of housing prices based on the following factors (i.e., features):
 * Number of Bedrooms
 * Number of Bathrooms
@@ -7,6 +8,7 @@ Prediction of housing prices based on the following factors (i.e., features):
 * Urbanicity (i.e., Urban or Rural)
 
 Dataset Source: https://www.kaggle.com/datasets/klekzee/phillipines-housing-market
+Demo Link: https://housingph.streamlit.app/
 
 # Data
 * raw - contains the raw CSV file dataset
@@ -37,4 +39,5 @@ If you are interested in trying the Streamlit App locally, follow these steps:
 1. Create a virtual environment and activate it.
 2. Install all the dependecies from `requirements.txt` within the virtual environment
 3. In the terminal, enter the command: `python source\st_app.py`. Open the Local URL provided.
-4. Provide your inputs and click submit to generate a prediction.
+   * Optional: In `st_app.py`, you may change "Local" to "API" in `generate_prediction()` if you wish to generate predictions using the `api.py`. However, run the `api.py` before doing so. It was set to "Local" since the API is not deployed online.
+5. Provide your inputs and click submit to generate a prediction.
