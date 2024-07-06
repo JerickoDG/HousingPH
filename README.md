@@ -29,6 +29,7 @@ Demo Link: https://housingph.streamlit.app/
 * Directory that contains the following:
   *   API (`api.py`) - Purposely created for model deployment in web as applications communicate using this tool.
   *   Streamlit App (`st_app.py`) - Python code to demonstrate the deployment of the model.
+  *   `inference.py` - contains helper functions for loading the model and generating predictions.
  
 # API Demonstration in Postman
 ![image](https://github.com/JerickoDG/HousingPH/assets/60811658/93fca76e-3f31-4d66-a71a-8e467bd2e8fb)
