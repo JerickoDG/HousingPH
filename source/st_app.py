@@ -27,4 +27,10 @@ if submitted:
     if prediction == None:
         st.code("No prediction generated. Only Local or API argument values are accepted on the source parameter of generate_prediction()")
     else:
-        st.code(f"Prediction: {prediction}")
+        st.code(f"Prediction (in PHP (₱)): {prediction}")
+
+st.markdown("""---""")
+st.subheader("GitHub Repository")
+st.write("To know more information about the dataset used and how model training and evaluation were performed, visit this GitHub Repository: https://github.com/JerickoDG/HousingPH")
+
+st.write("Thank you for checking my project! 🤗")
